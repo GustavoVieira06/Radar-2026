@@ -8,6 +8,22 @@ O projeto cobre o ciclo completo de um sistema de busca, **sem banco de dados**:
 2. **Representação:** os textos são limpos, quebrados em palavras e normalizados (stopwords, stemming em português, remoção de acentos). O índice invertido é construído em blocos (SPIMI), comprimido (d-gap + Variable Byte), dividido em 64 buckets e guarda as posições das palavras.
 3. **Recuperação:** ranqueamento BM25, busca por frase exata, exclusão de termos, filtros por ano, origem e fonte, e trechos com os termos destacados.
 4. **Interface:** página web local servida pelo próprio Python, sem frameworks.
+   
+
+## Telas
+
+Busca por "reforma tributária": filtros por ano, origem e fonte à esquerda, com a contagem de documentos, e trechos com os termos destacados.
+
+![Resultados da busca](docs/img/resultados.png)
+
+| Frase exata, exclusão e filtros | Leitura do texto completo |
+| --- | --- |
+| ![Frase exata com filtros](docs/img/frase-e-filtros.png) | ![Leitor do documento](docs/img/leitor.png) |
+
+| Tela inicial | No celular |
+| --- | --- |
+| ![Tela inicial](docs/img/tela-inicial.png) | ![Versão para celular](docs/img/celular.png) |
+
 
 ## Como rodar
 
