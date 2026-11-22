@@ -1,0 +1,4 @@
+# Domínios extras permitidos além dos das sementes/sitemaps (sufixo casa subdomínios).
+# Ex.: sites de candidatos e partidos com propostas publicadas.
+divulgacandcontas.tse.jus.br
+tse.jus.br

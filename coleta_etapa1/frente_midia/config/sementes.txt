@@ -1,0 +1,24 @@
+# Páginas iniciais (sementes) do coletor focado. Uma URL por linha.
+# Conferir no navegador se cada seção ainda existe antes de iniciar a coleta.
+
+# Portais nacionais - seções de eleições 2026
+https://g1.globo.com/politica/eleicoes/2026/
+https://noticias.uol.com.br/eleicoes/
+https://www.estadao.com.br/politica/eleicoes/
+https://www.cnnbrasil.com.br/politica/eleicoes/
+https://oglobo.globo.com/politica/eleicoes-2026/
+https://www.poder360.com.br/eleicoes/
+https://www.band.com.br/politica/eleicoes
+https://www.gazetadopovo.com.br/eleicoes/
+https://agenciabrasil.ebc.com.br/politica
+
+# Agências de checagem
+https://lupa.uol.com.br/jornalismo
+https://www.aosfatos.org/noticias/
+
+# Portais regionais (disputas para governador)
+https://www.em.com.br/politica
+https://jc.ne10.uol.com.br/politica
+https://www.correiobraziliense.com.br/politica
+https://www.opovo.com.br/noticias/politica/
+https://www.correio24horas.com.br/politica

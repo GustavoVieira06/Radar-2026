@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar 2026 · busca de propostas eleitorais</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body class="inicio">
+
+<!-- tela inicial -->
+<section id="capa">
+  <div class="capa-miolo">
+    <p class="selo">Eleições 2026</p>
+    <h1 class="marca">Radar <span>2026</span></h1>
+    <p class="sub">Busca em notícias, propostas e planos de governo das eleições de 2026</p>
+    <form class="caixa grande" data-form>
+      <input type="search" name="q" placeholder="Ex.: reforma tributária, &quot;segurança pública&quot;, saúde -dengue" autocomplete="off" aria-label="Consulta" autofocus>
+      <button type="submit">Buscar</button>
+    </form>
+    <div class="exemplos">
+      <span>Experimente:</span>
+      <button type="button" data-ex="reforma tributária">reforma tributária</button>
+      <button type="button" data-ex="&quot;segurança pública&quot;">"segurança pública"</button>
+      <button type="button" data-ex="plano de governo educação">plano de governo educação</button>
+      <button type="button" data-ex="salário mínimo">salário mínimo</button>
+      <button type="button" data-ex="desmatamento amazônia">desmatamento amazônia</button>
+    </div>
+    <p class="numeros" id="numeros">&nbsp;</p>
+  </div>
+  <footer class="rodape">
+    Trabalho de Recuperação de Informação na Web · software livre (licença MIT) · Python, sem banco de dados
+  </footer>
+</section>
+
+<!-- resultados -->
+<header id="topo">
+  <a class="marca pequena" href="./" data-home>Radar <span>2026</span></a>
+  <form class="caixa" data-form>
+    <input type="search" name="q" autocomplete="off" aria-label="Consulta">
+    <button type="submit">Buscar</button>
+  </form>
+  <div class="opcoes">
+    <div class="alternar" role="group" aria-label="Modo">
+      <button type="button" data-modo="ou" class="ativo" title="Documentos com pelo menos uma das palavras">Qualquer palavra</button>
+      <button type="button" data-modo="e" title="Documentos com todas as palavras">Todas</button>
+    </div>
+    <label class="marcar" title="Multiplica a nota de documentos de 2026 por 1,3"><input type="checkbox" id="reforco" checked> Priorizar 2026</label>
+    <label class="modelo">Modelo
+      <select id="modelo"><option value="bm25">BM25</option><option value="tfidf">TF-IDF (Etapa 2)</option></select>
+    </label>
+  </div>
+</header>
+
+<main id="corpo">
+  <button type="button" id="abrir-filtros">Filtros</button>
+  <aside id="filtros">
+    <div class="grupo">
+      <h3>Ano</h3>
+      <div id="f-ano"></div>
+    </div>
+    <div class="grupo">
+      <h3>Origem</h3>
+      <div id="f-origem"></div>
+    </div>
+    <div class="grupo">
+      <h3>Fonte</h3>
+      <div id="f-fonte"></div>
+    </div>
+    <button type="button" id="limpar" class="link">Limpar filtros</button>
+  </aside>
+  <section id="lista">
+    <p id="status"></p>
+    <ol id="resultados"></ol>
+    <nav id="paginas" aria-label="Páginas"></nav>
+  </section>
+</main>
+
+<!-- leitor do documento -->
+<div id="veu" hidden></div>
+<article id="leitor" hidden aria-modal="true" role="dialog">
+  <button type="button" class="fechar" aria-label="Fechar">×</button>
+  <p class="meta" id="l-meta"></p>
+  <h2 id="l-titulo"></h2>
+  <a id="l-url" target="_blank" rel="noopener">Abrir a página original ↗</a>
+  <div id="l-texto"></div>
+</article>
+
+<script src="app.js"></script>
+</body>
+</html>

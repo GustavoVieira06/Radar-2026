@@ -1,0 +1,137 @@
+# Domínios cujo robots.txt -> Sitemap será lido como fonte extra de URLs.
+# Só entram URLs do sitemap com termos do tema (eleição, candidato, proposta...)
+# ou da seção de política, e com data (<lastmod>) a partir de RIW_CORTE (padrão 2026-01-01).
+# Cada domínio listado aqui também passa a ser permitido na coleta.
+# Para desativar um site sem apagar, coloque # no começo da linha.
+
+# ================= PORTAIS ORIGINAIS =================
+g1.globo.com
+noticias.uol.com.br
+www.estadao.com.br
+www.cnnbrasil.com.br
+oglobo.globo.com
+www.poder360.com.br
+www.band.com.br
+www.gazetadopovo.com.br
+agenciabrasil.ebc.com.br
+lupa.uol.com.br
+www.aosfatos.org
+www.em.com.br
+jc.ne10.uol.com.br
+www.correiobraziliense.com.br
+www.opovo.com.br
+www.correio24horas.com.br
+
+# ================= NACIONAIS =================
+www.metropoles.com
+www.terra.com.br
+noticias.r7.com
+veja.abril.com.br
+www.cartacapital.com.br
+www.congressoemfoco.com.br
+www.brasildefato.com.br
+exame.com
+istoe.com.br
+www.infomoney.com.br
+www.moneytimes.com.br
+revistaforum.com.br
+www.brasil247.com
+www.diariodocentrodomundo.com.br
+oantagonista.com.br
+revistaoeste.com
+jovempan.com.br
+sbtnews.sbt.com.br
+www.jb.com.br
+www.nexojornal.com.br
+piaui.folha.uol.com.br
+extra.globo.com
+odia.ig.com.br
+
+# ================= CHECAGEM / INVESTIGATIVO =================
+projetocomprova.com.br
+www.boatos.org
+www.e-farsas.com
+apublica.org
+
+# ================= REGIONAIS POR ESTADO =================
+# AC
+ac24horas.com
+# AL
+www.tnh1.com.br
+www.cadaminuto.com.br
+# AM
+www.acritica.com
+d24am.com
+# AP
+selesnafes.com
+# BA
+atarde.com.br
+www.bahianoticias.com.br
+www.bnews.com.br
+www.metro1.com.br
+# CE
+diariodonordeste.verdesmares.com.br
+# DF
+www.jornaldebrasilia.com.br
+# ES
+www.agazeta.com.br
+www.folhavitoria.com.br
+tribunaonline.com.br
+# GO
+www.jornalopcao.com.br
+www.maisgoias.com.br
+opopular.com.br
+# MA
+oimparcial.com.br
+imirante.com
+# MG
+www.otempo.com.br
+www.hojeemdia.com.br
+www.itatiaia.com.br
+# MS
+www.campograndenews.com.br
+www.midiamax.com.br
+correiodoestado.com.br
+# MT
+www.midianews.com.br
+www.olhardireto.com.br
+www.gazetadigital.com.br
+# PA
+www.oliberal.com
+dol.com.br
+# PB
+www.clickpb.com.br
+portalcorreio.com.br
+# PE
+www.diariodepernambuco.com.br
+www.folhape.com.br
+# PI
+www.gp1.com.br
+cidadeverde.com
+www.meionorte.com
+# PR
+www.bemparana.com.br
+www.bandab.com.br
+www.plural.jor.br
+# RN
+tribunadonorte.com.br
+agorarn.com.br
+# RO
+www.rondoniagora.com
+# RR
+folhabv.com.br
+# RS
+gauchazh.clicrbs.com.br
+www.correiodopovo.com.br
+www.sul21.com.br
+www.jornaldocomercio.com
+# SC
+www.nsctotal.com.br
+ndmais.com.br
+# SE
+www.infonet.com.br
+a8se.com
+# SP (interior)
+www.acidadeon.com
+# TO
+conexaoto.com.br

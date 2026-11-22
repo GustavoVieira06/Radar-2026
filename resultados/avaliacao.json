@@ -1,0 +1,558 @@
+{
+ "amostra": 300,
+ "exemplos_consultas": [
+  [
+   "candidatos doação receberam",
+   [
+    83553
+   ]
+  ],
+  [
+   "candidato ouvir papudinha",
+   [
+    63947
+   ]
+  ],
+  [
+   "praias inclui rosas",
+   [
+    12642
+   ]
+  ],
+  [
+   "jovem imagem anos",
+   [
+    108903
+   ]
+  ],
+  [
+   "cristina vice pronta",
+   [
+    107797
+   ]
+  ],
+  [
+   "financeiro colapso trump",
+   [
+    53301
+   ]
+  ],
+  [
+   "etapa reconciliação promete",
+   [
+    69929
+   ]
+  ],
+  [
+   "referendar stf virtual",
+   [
+    7982
+   ]
+  ],
+  [
+   "renunciará após derrota",
+   [
+    79764
+   ]
+  ],
+  [
+   "fim entenda constituição",
+   [
+    84116
+   ]
+  ],
+  [
+   "prisão após delcy",
+   [
+    61539
+   ]
+  ],
+  [
+   "suspensão garotinho direitos",
+   [
+    105903
+   ]
+  ],
+  [
+   "morais indenizar condenado",
+   [
+    6459
+   ]
+  ],
+  [
+   "milhões mês eleições",
+   [
+    32647
+   ]
+  ],
+  [
+   "bolsonaro carnaval homenagem",
+   [
+    103923
+   ]
+  ]
+ ],
+ "resultados": [
+  {
+   "mrr": 0.3168,
+   "acerto@1": 0.2167,
+   "acerto@10": 0.5333,
+   "tempo_medio_ms": 78.0,
+   "grupo": "modelo/curtas",
+   "variacao": "TF-IDF (Etapa 2)"
+  },
+  {
+   "mrr": 0.4145,
+   "acerto@1": 0.2833,
+   "acerto@10": 0.68,
+   "tempo_medio_ms": 66.0,
+   "grupo": "modelo/curtas",
+   "variacao": "BM25 k1=1,2 b=0,75"
+  },
+  {
+   "mrr": 0.4311,
+   "acerto@1": 0.3033,
+   "acerto@10": 0.7067,
+   "tempo_medio_ms": 66.6,
+   "grupo": "modelo/curtas",
+   "variacao": "BM25 k1=0,6 b=0,75"
+  },
+  {
+   "mrr": 0.7166,
+   "acerto@1": 0.6267,
+   "acerto@10": 0.9133,
+   "tempo_medio_ms": 204.0,
+   "grupo": "modelo/longas",
+   "variacao": "TF-IDF (Etapa 2)"
+  },
+  {
+   "mrr": 0.8624,
+   "acerto@1": 0.7867,
+   "acerto@10": 0.9767,
+   "tempo_medio_ms": 175.8,
+   "grupo": "modelo/longas",
+   "variacao": "BM25 k1=1,2 b=0,75"
+  },
+  {
+   "mrr": 0.8812,
+   "acerto@1": 0.8167,
+   "acerto@10": 0.9833,
+   "tempo_medio_ms": 174.3,
+   "grupo": "modelo/longas",
+   "variacao": "BM25 k1=0,6 b=0,75"
+  },
+  {
+   "mrr": 0.3966,
+   "acerto@1": 0.2967,
+   "acerto@10": 0.61,
+   "tempo_medio_ms": 80.9,
+   "grupo": "grade_bm25",
+   "variacao": "k1=0.6 b=0.30"
+  },
+  {
+   "mrr": 0.4231,
+   "acerto@1": 0.31,
+   "acerto@10": 0.66,
+   "tempo_medio_ms": 66.3,
+   "grupo": "grade_bm25",
+   "variacao": "k1=0.6 b=0.50"
+  },
+  {
+   "mrr": 0.4311,
+   "acerto@1": 0.3033,
+   "acerto@10": 0.7067,
+   "tempo_medio_ms": 73.6,
+   "grupo": "grade_bm25",
+   "variacao": "k1=0.6 b=0.75"
+  },
+  {
+   "mrr": 0.429,
+   "acerto@1": 0.3033,
+   "acerto@10": 0.6533,
+   "tempo_medio_ms": 68.9,
+   "grupo": "grade_bm25",
+   "variacao": "k1=0.6 b=0.90"
+  },
+  {
+   "mrr": 0.3935,
+   "acerto@1": 0.2933,
+   "acerto@10": 0.6067,
+   "tempo_medio_ms": 68.0,
+   "grupo": "grade_bm25",
+   "variacao": "k1=0.9 b=0.30"
+  },
+  {
+   "mrr": 0.4117,
+   "acerto@1": 0.2933,
+   "acerto@10": 0.6567,
+   "tempo_medio_ms": 76.6,
+   "grupo": "grade_bm25",
+   "variacao": "k1=0.9 b=0.50"
+  },
+  {
+   "mrr": 0.4232,
+   "acerto@1": 0.2933,
+   "acerto@10": 0.6967,
+   "tempo_medio_ms": 76.0,
+   "grupo": "grade_bm25",
+   "variacao": "k1=0.9 b=0.75"
+  },
+  {
+   "mrr": 0.421,
+   "acerto@1": 0.2933,
+   "acerto@10": 0.66,
+   "tempo_medio_ms": 73.3,
+   "grupo": "grade_bm25",
+   "variacao": "k1=0.9 b=0.90"
+  },
+  {
+   "mrr": 0.3854,
+   "acerto@1": 0.2833,
+   "acerto@10": 0.5967,
+   "tempo_medio_ms": 71.8,
+   "grupo": "grade_bm25",
+   "variacao": "k1=1.2 b=0.30"
+  },
+  {
+   "mrr": 0.3996,
+   "acerto@1": 0.28,
+   "acerto@10": 0.65,
+   "tempo_medio_ms": 68.2,
+   "grupo": "grade_bm25",
+   "variacao": "k1=1.2 b=0.50"
+  },
+  {
+   "mrr": 0.4145,
+   "acerto@1": 0.2833,
+   "acerto@10": 0.68,
+   "tempo_medio_ms": 72.2,
+   "grupo": "grade_bm25",
+   "variacao": "k1=1.2 b=0.75"
+  },
+  {
+   "mrr": 0.4141,
+   "acerto@1": 0.29,
+   "acerto@10": 0.6567,
+   "tempo_medio_ms": 68.8,
+   "grupo": "grade_bm25",
+   "variacao": "k1=1.2 b=0.90"
+  },
+  {
+   "mrr": 0.3779,
+   "acerto@1": 0.2767,
+   "acerto@10": 0.5767,
+   "tempo_medio_ms": 70.6,
+   "grupo": "grade_bm25",
+   "variacao": "k1=1.5 b=0.30"
+  },
+  {
+   "mrr": 0.3938,
+   "acerto@1": 0.2767,
+   "acerto@10": 0.6367,
+   "tempo_medio_ms": 73.7,
+   "grupo": "grade_bm25",
+   "variacao": "k1=1.5 b=0.50"
+  },
+  {
+   "mrr": 0.4138,
+   "acerto@1": 0.2867,
+   "acerto@10": 0.6733,
+   "tempo_medio_ms": 73.6,
+   "grupo": "grade_bm25",
+   "variacao": "k1=1.5 b=0.75"
+  },
+  {
+   "mrr": 0.4123,
+   "acerto@1": 0.2967,
+   "acerto@10": 0.65,
+   "tempo_medio_ms": 71.4,
+   "grupo": "grade_bm25",
+   "variacao": "k1=1.5 b=0.90"
+  },
+  {
+   "mrr": 0.3623,
+   "acerto@1": 0.2633,
+   "acerto@10": 0.5567,
+   "tempo_medio_ms": 74.2,
+   "grupo": "grade_bm25",
+   "variacao": "k1=2.0 b=0.30"
+  },
+  {
+   "mrr": 0.3856,
+   "acerto@1": 0.2733,
+   "acerto@10": 0.63,
+   "tempo_medio_ms": 83.9,
+   "grupo": "grade_bm25",
+   "variacao": "k1=2.0 b=0.50"
+  },
+  {
+   "mrr": 0.405,
+   "acerto@1": 0.2867,
+   "acerto@10": 0.6667,
+   "tempo_medio_ms": 78.2,
+   "grupo": "grade_bm25",
+   "variacao": "k1=2.0 b=0.75"
+  },
+  {
+   "mrr": 0.4081,
+   "acerto@1": 0.2967,
+   "acerto@10": 0.65,
+   "tempo_medio_ms": 71.6,
+   "grupo": "grade_bm25",
+   "variacao": "k1=2.0 b=0.90"
+  },
+  {
+   "mrr": 0.4269,
+   "acerto@1": 0.3233,
+   "acerto@10": 0.6133,
+   "tempo_medio_ms": 74.4,
+   "grupo": "validacao/curtas",
+   "variacao": "k1=0.6 b=0.75"
+  },
+  {
+   "mrr": 0.4183,
+   "acerto@1": 0.3133,
+   "acerto@10": 0.6067,
+   "tempo_medio_ms": 79.4,
+   "grupo": "validacao/curtas",
+   "variacao": "k1=0.9 b=0.75"
+  },
+  {
+   "mrr": 0.4161,
+   "acerto@1": 0.3167,
+   "acerto@10": 0.6,
+   "tempo_medio_ms": 77.3,
+   "grupo": "validacao/curtas",
+   "variacao": "k1=1.2 b=0.75"
+  },
+  {
+   "mrr": 0.8772,
+   "acerto@1": 0.8167,
+   "acerto@10": 0.97,
+   "tempo_medio_ms": 196.0,
+   "grupo": "validacao/longas",
+   "variacao": "k1=0.6 b=0.75"
+  },
+  {
+   "mrr": 0.8648,
+   "acerto@1": 0.8,
+   "acerto@10": 0.97,
+   "tempo_medio_ms": 198.8,
+   "grupo": "validacao/longas",
+   "variacao": "k1=0.9 b=0.75"
+  },
+  {
+   "mrr": 0.8625,
+   "acerto@1": 0.8033,
+   "acerto@10": 0.9567,
+   "tempo_medio_ms": 194.2,
+   "grupo": "validacao/longas",
+   "variacao": "k1=1.2 b=0.75"
+  }
+ ],
+ "tempos_20_consultas": {
+  "TF-IDF (Etapa 2)": {
+   "media_ms": 58.0,
+   "mediana_ms": 36.0,
+   "max_ms": 153.7
+  },
+  "BM25": {
+   "media_ms": 58.1,
+   "mediana_ms": 30.9,
+   "max_ms": 174.6
+  },
+  "BM25 modo E": {
+   "media_ms": 33.8,
+   "mediana_ms": 19.2,
+   "max_ms": 150.1
+  },
+  "BM25 frase exata": {
+   "media_ms": 95.8,
+   "mediana_ms": 67.8,
+   "max_ms": 286.7
+  },
+  "BM25 + trechos (página)": {
+   "media_ms": 57.8,
+   "mediana_ms": 49.7,
+   "max_ms": 116.9
+  }
+ },
+ "exemplos_top3": [
+  {
+   "consulta": "reforma tributária",
+   "reforco_2026": 0.0,
+   "total": 7674,
+   "top3": [
+    [
+     "Equipe de Flávio Bolsonaro modula discurso contra reforma tributária e avalia abreviar tra",
+     "estadao.com.br",
+     null
+    ],
+    [
+     "Flávio Bolsonaro diz que, se eleito, vai suspender entrada em vigor da reforma tributária ",
+     "odia.ig.com.br",
+     2026
+    ],
+    [
+     "MidiaNews | Em audiência, Senado debate diferentes propostas de reforma tributária",
+     "midianews.com.br",
+     2019
+    ]
+   ]
+  },
+  {
+   "consulta": "reforma tributária",
+   "reforco_2026": 0.3,
+   "total": 7674,
+   "top3": [
+    [
+     "Flávio Bolsonaro diz que, se eleito, vai suspender entrada em vigor da reforma tributária ",
+     "odia.ig.com.br",
+     2026
+    ],
+    [
+     "Flávio indica que fará nova reforma tributária se for eleito",
+     "bnews.com.br",
+     2026
+    ],
+    [
+     "Flávio Bolsonaro promete \"reforma tributária de verdade\" se eleito",
+     "congressoemfoco.com.br",
+     2026
+    ]
+   ]
+  },
+  {
+   "consulta": "\"segurança pública\"",
+   "reforco_2026": 0.0,
+   "total": 9280,
+   "top3": [
+    [
+     "Câmara aprova PEC da Segurança Pública com apoio unânime do Republicanos",
+     "republicanos10.org.br",
+     null
+    ],
+    [
+     "Mailza reúne lideranças da segurança pública e promete fortalecer ações no setor",
+     "ac24horas.com",
+     2026
+    ],
+    [
+     "PEC da Segurança Pública é \"cosmética\", diz Tarcísio de Freitas",
+     "congressoemfoco.com.br",
+     2025
+    ]
+   ]
+  },
+  {
+   "consulta": "\"segurança pública\"",
+   "reforco_2026": 0.3,
+   "total": 9280,
+   "top3": [
+    [
+     "Mailza reúne lideranças da segurança pública e promete fortalecer ações no setor",
+     "ac24horas.com",
+     2026
+    ],
+    [
+     "Lula cita \"injustiça\" com a Bahia ao falar de segurança pública | A TARDE",
+     "atarde.com.br",
+     2026
+    ],
+    [
+     "Lula volta a prometer criar Ministério da Segurança Pública em plano de governo",
+     "tribunaonline.com.br",
+     2026
+    ]
+   ]
+  },
+  {
+   "consulta": "salário mínimo",
+   "reforco_2026": 0.0,
+   "total": 9953,
+   "top3": [
+    [
+     "Salário mínimo e aposentadoria: veja as propostas dos candidatos à Presidência - Imirante.",
+     "imirante.com",
+     2026
+    ],
+    [
+     "Governo quer aumentar salário mínimo dos brasileiros para mais de R$ 2 mil em breve; veja ",
+     "moneytimes.com.br",
+     2026
+    ],
+    [
+     "Flávio Bolsonaro diz que vai acabar com o salário mínimo se for eleito?",
+     "boatos.org",
+     2026
+    ]
+   ]
+  },
+  {
+   "consulta": "salário mínimo",
+   "reforco_2026": 0.3,
+   "total": 9953,
+   "top3": [
+    [
+     "Salário mínimo e aposentadoria: veja as propostas dos candidatos à Presidência - Imirante.",
+     "imirante.com",
+     2026
+    ],
+    [
+     "Governo quer aumentar salário mínimo dos brasileiros para mais de R$ 2 mil em breve; veja ",
+     "moneytimes.com.br",
+     2026
+    ],
+    [
+     "Flávio Bolsonaro diz que vai acabar com o salário mínimo se for eleito?",
+     "boatos.org",
+     2026
+    ]
+   ]
+  },
+  {
+   "consulta": "privatização da petrobras",
+   "reforco_2026": 0.0,
+   "total": 2585,
+   "top3": [
+    [
+     "Quero privatizar e fatiar a Petrobras em até cinco empresas, diz Zema à CNN | CNN Brasil",
+     "cnnbrasil.com.br",
+     2026
+    ],
+    [
+     "Marinho sobre Petrobras: ‘Não há nenhum plano no sentido de privatizar’",
+     "revistaoeste.com",
+     2026
+    ],
+    [
+     "Pré-candidato à Presidência, Zema defende privatização da Petrobras: “Vamos botar tudo par",
+     "correiodopovo.com.br",
+     null
+    ]
+   ]
+  },
+  {
+   "consulta": "privatização da petrobras",
+   "reforco_2026": 0.3,
+   "total": 2585,
+   "top3": [
+    [
+     "Quero privatizar e fatiar a Petrobras em até cinco empresas, diz Zema à CNN | CNN Brasil",
+     "cnnbrasil.com.br",
+     2026
+    ],
+    [
+     "Marinho sobre Petrobras: ‘Não há nenhum plano no sentido de privatizar’",
+     "revistaoeste.com",
+     2026
+    ],
+    [
+     "Zema quer privatizar a Petrobras 'o quanto antes' | Brasil | O Dia",
+     "odia.ig.com.br",
+     2026
+    ]
+   ]
+  }
+ ]
+}

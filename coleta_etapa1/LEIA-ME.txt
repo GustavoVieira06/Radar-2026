@@ -1,0 +1,9 @@
+Código da coleta (Etapa 1). Não é necessário para rodar o buscador:
+o buscador usa só o corpus_eleicoes_2026_final.csv, que é o resultado desta coleta.
+
+frente_midia/          coletor dos portais de notícia (pyspider com fila e resultados em arquivos)
+                       uso: ver frente_midia/README.md (Python 3.8 + pyspider)
+frente_institucional/  projeto pyspider dos portais de partidos, Câmara, Senado e tribunais
+
+A união das duas bases no CSV final é feita por ../unificar_bases.py.
+Os dados brutos da coleta (pasta dados/, cerca de 800 MB) não foram incluídos.
