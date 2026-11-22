@@ -1,0 +1,22 @@
+# Dados: não vão para o repositório (tamanho e direitos autorais dos textos coletados)
+*.csv
+!resultados/*.csv
+*.csv.zip
+dados/
+coleta_etapa1/frente_midia/dados/
+
+# Documentos da disciplina (têm os nomes do grupo)
+*.pdf
+*.pptx
+*.docx
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
